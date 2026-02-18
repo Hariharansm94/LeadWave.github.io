@@ -1,0 +1,105 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LeadWave | Data & Lead Generation Experts</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+header {
+    padding: 80px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #2563eb, #1e3a8a);
+}
+h1 { font-size: 48px; margin-bottom: 10px; }
+p { font-size: 18px; }
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: white;
+    color: #1e3a8a;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    background: #1e293b;
+    padding: 25px;
+    width: 280px;
+    border-radius: 10px;
+}
+footer {
+    background: #111827;
+    padding: 20px;
+    text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>LeadWave</h1>
+    <p>Web Scraping • Lead Generation • Market Research • Data Analytics</p>
+    <a href="#contact" class="btn">Get Free Sample</a>
+</header>
+
+<section>
+    <h2>Our Services</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Web Scraping</h3>
+            <p>Business directories, ecommerce data, job portals, pricing & competitor tracking.</p>
+        </div>
+        <div class="card">
+            <h3>Email Collection</h3>
+            <p>Verified B2B leads, decision makers, LinkedIn research, contact enrichment.</p>
+        </div>
+        <div class="card">
+            <h3>Market Research</h3>
+            <p>Industry analysis, pricing research, competitor intelligence, TAM/SAM insights.</p>
+        </div>
+        <div class="card">
+            <h3>Data Analytics</h3>
+            <p>Excel dashboards, KPI reporting, SQL analysis, business insights.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Why LeadWave?</h2>
+    <p>✔ Clean & structured data</p>
+    <p>✔ GDPR-compliant scraping</p>
+    <p>✔ Custom datasets</p>
+    <p>✔ Fast turnaround</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: hariharansm94@gmail.com</p>
+    <p>Phone: +91 8870585768</p>
+</section>
+
+<footer>
+    <p>© 2026 LeadWave | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
